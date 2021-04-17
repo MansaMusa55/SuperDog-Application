@@ -1,0 +1,63 @@
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #A5D3E6;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #A5D3E6;
+  }
+  
+  .footer {
+  background-color: #A5D3E6;
+  } 
+  
+  @media (min-width: 768px) {
+    .header {
+      background-image: url("/img/Robot.png");
+      background-position: 0%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: fixed;
+      background-color: steelblue;
+      padding: 60px 0;
+    }
+  
+    .hero {
+      margin: 0 auto;
+      overflow: hidden;
+      padding: 10px 0;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+  
+  }
+    
+    
+    /* Custom page CSS
+    -------------------------------------------------- */
+    /* Not required for template or sticky footer method. */
+    /*
+    body > .container {
+      padding: 60px 15px 0;
+    }
+  */
+    header{
+      padding: 0px 15px 55px;
+    }
+    
+    .footer > .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    
+    code {
+      font-size: 80%;
+    }
+    
